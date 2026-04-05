@@ -4,10 +4,10 @@ st.title("AI Diet Planner for Indians🍍🥩🥚")
 gender = st.selectbox("Select your Gender",["","Male","Female"])
 if (gender != ""):
     if(gender == "Male"):
-        st.image("/workspaces/ai-diet-planner/image/male/bodyTypesMale.jpeg")
+        st.image("image/male/bodyTypesMale.jpeg")
         body_type = st.selectbox("Select your Body Type",["","Skinny","Toner","fit","Athletic","Built","String FAt","Chubby"])
     elif (gender == "Female"):
-        st.image("/workspaces/ai-diet-planner/image/female/bodyTypesFemale.webp")  
+        st.image("image/female/bodyTypesFemale.webp")  
         body_type = st.selectbox("Select your Body Type",["","Hourglass","Pear-Triangle","Apple-Round","Rectangle-Athletic","Inverted Triangle","Diamon","Top HourGlass","Bottom Hourgass","Petite","Tall"])  
     
     if (body_type):
